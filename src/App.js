@@ -21,10 +21,15 @@ const bulletinBoard = [{
 
   return (
     <div className="App">
+      <header className="head">
       <h1>Inlämning 1-Javascript med React</h1>
+      </header>
       {bulletinBoard.map(({question, answer}) => (
         <Post question={question} answer={answer}/>
       ))}
+      <footer className="foot">
+        <strong>Copyright Filip J</strong>
+      </footer>
         </div>
   );
 }

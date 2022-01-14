@@ -1,10 +1,17 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background: lightblue;
 }
+
 .content {
   margin-top: 100px;
+  border: solid black 3px;
+  background: lightgoldenrodyellow;
 }
 .like {
   color: darkred;
+}
+.foot{
+  margin-top: 50px;
 }
