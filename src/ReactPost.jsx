@@ -6,11 +6,12 @@ let ReactPost = ({ question, answer }) => {
 
   return (
     <div className="content">
-      <h2>{question}</h2>
+      <h1>{question}</h1>
       <h2>{answer}</h2>
-
+      {/* butt :D */}
       {!showLike ? (
-        <button
+        
+        <button className="butt"
           onClick={() => {
             setShowLike(!showLike);
           }}

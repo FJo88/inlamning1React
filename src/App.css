@@ -9,6 +9,9 @@
   border: solid black 3px;
   background: lightgoldenrodyellow;
 }
+.butt{
+  margin-bottom: 20px;
+}
 .like {
   color: darkred;
 }
